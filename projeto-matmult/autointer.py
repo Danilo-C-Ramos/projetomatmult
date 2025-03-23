@@ -6,7 +6,7 @@ def f(b, k):
 
 valores_k = [-1, -2, -3, -4, -5]
 
-intervalo_t = np.arange(0,2*m.pi,0.0008)
+intervalo_t = np.arange(0,2*m.pi,0.0001)
 
 tol = 0.001
 
@@ -23,5 +23,5 @@ for b in intervalo_t:
                 inter.append([x,y])
 
 
-
-print(inter)
+for valor in inter:
+    print(valor)
